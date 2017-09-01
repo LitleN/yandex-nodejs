@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+	<main>
+		<form id="myForm" method="GET" name="myForm" action="success.json">
+			<div class="conteiner">
+				<label for="id-fio">ФИО:</label>
+				<input name="fio" type="text" id="fio">
+			</div>
+			<div class="conteiner">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email">
+			</div>
+			<div class="conteiner">
+				<label for="id-phone">Номер телефона:</label>
+				<input type="tel" name="phone" id="phone" placeholder="+7(XXX)XXX-XX-XX">
+			</div>
+			<div id="resultContainer" class="result"></div>
+			<input type="submit" name="submitButton" id="submitButton" value="Отправить">
+		</form>
+		
+	</main>
+	<script type="text/javascript" src="index.js"></script>
+</body>

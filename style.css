@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#myForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.conteiner {
+	display: flex;	
+	flex-direction: column;
+	margin: 5px 0;
+}
+
+.conteiner input {
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	text-align: right;
+	padding: 5px 10px;
+	font-size: 1em;
+	color: #555;
+}
+.conteiner label {
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #555;
+}
+
+#submitButton {
+	align-self: center;
+	width: 100%;
+	height: 40px;
+	color: #555;
+	text-transform: uppercase;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.field-error {
+	border: 2px solid red !important; 
+}
+
+.result {
+	width: 100%;
+	height: 0;
+	background-color: transparent;
+	transition-duration: 0.3s;
+	margin: 10px 0;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 900;
+}
+
+.success {
+	height: 40px;
+	background: green;
+}
+
+.error {
+	height: 40px;
+	background: red;
+}
+
+.progress {
+	height: 40px;
+	background-color: orange;
+}
